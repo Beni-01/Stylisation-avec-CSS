@@ -1,0 +1,53 @@
+body{
+    background-color:silver;
+    margin:auto;
+    width:82%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold',serif;
+}
+h1{
+    font-size:380%;
+    text-align: center;    
+}
+a{
+    color:rgba(180, 6, 6, 0.938); 
+}
+
+h2{
+    color:rgba(180, 6, 6, 0.938);
+    font-weight:bold;
+}
+figure{
+    position: relative;
+    width:80%;
+    background-color:rgba(12, 12, 12, 0.979);
+    padding:50px;
+    border-radius:10px 10px 10px 10px;
+    border: red solid 3px;
+    color:white;
+    margin:auto;
+}
+.img-responsive{
+    position:relative;
+    width:100%;
+}
+figcaption{
+    text-align: center;
+    font-weight:bold;
+    margin-top:2%;
+    font-size:115%;
+}
+pre{
+    background-color:black;
+    width:90%;
+    border-radius:15px;
+    box-shadow:1px 1px 6px 0.1px black;
+    margin:auto;
+    margin-bottom:4%;
+}
+code{
+    font-size:150%;
+    color:white; 
+}
+.element{
+    color:red;
+}

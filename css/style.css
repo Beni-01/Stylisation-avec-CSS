@@ -1,0 +1,70 @@
+body{
+    background-color:silver;
+    margin:auto;
+    width:82%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold',serif;
+}
+h1{
+    font-size:380%;
+    text-align: center;    
+}
+a{
+    color:rgba(180, 6, 6, 0.938); 
+}
+
+h2{
+    color:rgba(180, 6, 6, 0.938);
+    font-weight:bold;
+}
+table{
+    border-collapse: collapse;
+    margin-bottom:2%;
+}
+td,th{
+    padding: 7px;
+}
+
+thead{
+    background-color: black ;
+    color:white ;
+    font-weight:bold ;
+}
+#first-line{
+    background-color: rgba(247, 242, 242, 0.32); 
+}
+
+#third-line{
+    background-color: gray;   
+}
+.back-multiple:nth-child(2n+1){
+    background-color: rgba(247, 242, 242, 0.5);
+  }
+figure{
+    position: relative;
+    width:92%;
+    background-color:rgba(12, 12, 12, 0.979);
+    padding:50px;
+    border-radius:10px 10px 10px 10px;
+    border: red solid 3px;
+    color:white;
+    margin:auto;
+}
+.img-responsive{
+    position:relative;
+    width:100%;
+}
+figcaption{
+    text-align: center;
+    font-weight:bold;
+    margin-top:2%;
+    font-size:115%;
+}
+#last-para{
+background-color:rgba(95, 95, 95, 0.2);
+border:5px rebeccapurple dashed;
+padding: 19px;
+color:rebeccapurple;
+font-size:120%;
+font-weight:bold;
+/*text-align: justify;*/
+}

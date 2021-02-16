@@ -16,9 +16,7 @@ h2{
     color:rgba(180, 6, 6, 0.938);
     font-weight:bold;
 }
-h3{
-    color:rgba(228, 134, 26,0.8);
-}
+
 figure{
     position: relative;
     width:80%;
@@ -50,7 +48,7 @@ pre{
 ul{
     list-style-position:outside;   
 }
-li{
+ul li{
     list-style-type:none;
     
 }

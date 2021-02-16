@@ -37,6 +37,13 @@ figcaption{
     margin-top:2%;
     font-size:115%;
 }
+
+blockquote{
+    border-left: green solid 6px;
+    padding:15px;
+    background-color:rgb(227, 243, 227);
+    border-radius: 10px;
+    }
 pre{
     background-color:black;
     width:90%;

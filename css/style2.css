@@ -52,8 +52,14 @@ ul li{
     list-style-type:none;
     
 }
+ul li i, ul li em{
+    font-style: normal;
+    margin-top:1%;
+    display: block;
+    margin-left:-3%;
+}
 code{
-    font-size:150%;
+    font-size:160%;
     color:white; 
 }
 .element{

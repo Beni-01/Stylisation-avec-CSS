@@ -16,6 +16,9 @@ h2{
     color:rgba(180, 6, 6, 0.938);
     font-weight:bold;
 }
+h3{
+    color:rgba(228, 134, 26,0.8);
+}
 figure{
     position: relative;
     width:80%;
@@ -44,10 +47,23 @@ pre{
     margin:auto;
     margin-bottom:4%;
 }
+ul{
+    list-style-position:outside;   
+}
+li{
+    list-style-type:none;
+    
+}
 code{
     font-size:150%;
     color:white; 
 }
 .element{
     color:red;
+}
+.attribute{
+    color:rgba(228, 134, 26,0.8);
+}
+.value{
+    color:rgba(76, 241, 76,0.5);
 }

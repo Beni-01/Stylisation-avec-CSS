@@ -1,80 +1,99 @@
+*{
+    box-sizing: border-box;
+  }
+@font-face{
+    font-family:Baskerville;
+    src:url(../font/@font-face/baskerville.ttf);
+}
 body{
+    
     background-color:silver;
-    margin:auto;
-    width:82%;
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold',serif;
+    width:  80%;
+    display:flex;
+    margin-bottom:3%;
+    justify-content:center;
+    flex-direction: column;
+    margin: auto;
+}
+main{
+    margin-bottom:1%;
+}
+p{
+    font-family:'Arial Narrow Bold', sans-serif;
 }
 h1{
-    font-size:380%;
-    text-align: center;    
+    font-size:4em;
+    text-align: center; 
+    font-family:Baskerville;
 }
-a{
-    color:rgba(180, 6, 6, 0.938); 
-}
-
 h2{
-    color:rgba(180, 6, 6, 0.938);
-    font-weight:bold;
+    font-family:Baskerville,serif;
+    font-size: 2em;
+    color:rgba(238, 32, 32, 0.938); 
 }
-
+h1+p{
+    margin-top: -2%;
+}
 figure{
     position: relative;
-    width:80%;
+    width:100%;
     background-color:rgba(12, 12, 12, 0.979);
     padding:50px;
     border-radius:10px 10px 10px 10px;
-    border: red solid 3px;
+    border: red solid 2px;
     color:white;
     margin:auto;
 }
-.img-responsive{
-    position:relative;
-    width:100%;
-}
-figcaption{
-    text-align: center;
-    font-weight:bold;
-    margin-top:2%;
-    font-size:115%;
-}
 
+a{
+    color:rgba(238, 32, 32, 0.938); 
+}
 blockquote{
-    border-left: green solid 6px;
+    border-left: green solid 8px;
+    border-right: green solid 8px;
     padding:15px;
-    background-color:rgb(227, 243, 227);
-    border-radius: 10px;
+    background-color:rgba(227, 243, 227,0.4);
+    border-radius: 0px 35px;
+   
+    }
+    figcaption{
+        text-align: center;
+        font-weight:bold;
+        margin-top:2%;
+        font-size:120%;
+    }
+    .img-responsive{
+        position:relative;
+        width:100%;
+    }
+    ul li i, ul li em{
+        font-style:normal;
+        margin-top:10px;
+        display:block;
     }
 pre{
-    background-color:black;
+    background-color:rgba(10, 9, 9,0.9);
     width:90%;
     border-radius:15px;
     box-shadow:1px 1px 6px 0.1px black;
     margin:auto;
     margin-bottom:4%;
+    font-size:140%;
+    padding:10px;  
 }
-ul{
-    list-style-position:outside;   
-}
-ul li{
-    list-style-type:none;
-    
-}
-ul li i, ul li em{
-    font-style: normal;
-    margin-top:1%;
-    display: block;
-    margin-left:-3%;
-}
+
+
 code{
-    font-size:160%;
     color:white; 
+   
 }
 .element{
     color:red;
+   
 }
 .attribute{
     color:rgba(228, 134, 26,0.8);
 }
 .value{
-    color:rgba(76, 241, 76,0.5);
+    color:rgba(76, 241, 76,0.5);  
 }

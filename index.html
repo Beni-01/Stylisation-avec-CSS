@@ -5,13 +5,14 @@
 	<title>Stylisation avec CSS</title>
 	<meta charset="utf-8">
 	<meta name="description" content="l'histoire de l'internet avec une chronologie">
+
 	<meta name="robots" content="index,follow">
     <link rel="stylesheet" href="css/style.css">
 	
 </head>
 <body>
-	<main>
-
+	
+<div>
 <h1>Histoire d’Internet</h1>
 <p>
 	L’<strong>histoire'Internet​</strong> remonte au développement 
@@ -42,7 +43,7 @@
 </thead>	
 
 <tbody>
-	<tr id="first-line">
+	<tr class="back-multiple">
 		<td ><b>1952</b></td>
 		<td>
 			Semi-Automatic Ground Environment​ : Système d'armes mettant en réseau 40ordinateurs à autant de radars.
@@ -54,7 +55,7 @@
 			Les​ Laboratoires Bell​ créent le premier Modem permettant de transmettre desdonnées binaires sur une simple ligne téléphonique.
 		</td>
 	</tr>
-<tr id="third-line">
+<tr class="back-multiple">
 
 		<td><b>1961</b></td>
 		<td>
@@ -216,10 +217,10 @@
 <figure>
 	<img src="images/ordinateur.jpg" alt="image d'un ordinateur" class="img-responsive"/>
 	<figcaption>Fig.1 - Le premier​ serveur web​, actuellement au musée du​ CERN​, étiqueté « ​This machine is a <br>server. DO NOT POWER IT DOWN!!​ »</figcaption>
-</figure><br>
+</figure>
 
-<h2>Protocole TCP/IP</h2>
-<p>
+<h2>Protocole <abbr title="">TCP/IP</abbr> </h2>
+<p class="before-last-para">
 	L'abondante diversité des méthodes de communications réseau amena un besoin d'uniformisation. Robert E. Kahn recruta Vinton G. Cerf de l'université Stanford dans le but detravailler ensemble sur ce problème. En 1973, ils avaient déjà réalisé une reformulation profonde, dans laquelle les différences entre les protocoles s'estompaient par l'utilisation d'un protocole de communication : au lieu d'asseoir la fiabilité du réseau sur les connexions, commeavec l'ARPANET, les hôtes en étaient maintenant responsables. Vinton G. Cerf attribua à Hubert Zimmermann et Louis Pouzin (développeurs du réseau Cyclades) un important travail de développement.
 </p>
 <p id="last-para">
@@ -229,9 +230,9 @@
 	 La DARPA accepta definancer le développement du logiciel prototype, et après plusieurs années de 
 	 travail, la première démonstration quelque peu rustique de ce qu'était alors devenu le TCP/IP eut 
 	 lieu en juillet 1977. Cette nouvelle méthode se répandit au travers des réseaux, 
-	 et le 1​ <sup>er​ </sup> janvier 1983 les protocoles TCP/IP devenaient officiellement le seul protocole sur l'ARPANET, remplaçant leprécédent protocole NCP2.
+	 et le <time datetime="1983-01-01">1​ <sup>er​ </sup> janvier 1983 </time>les protocoles TCP/IP devenaient officiellement le seul protocole sur l'ARPANET, remplaçant leprécédent protocole NCP2.
 </p> 
-<hr><br>
+
 </main>
 </body>
 </html>
